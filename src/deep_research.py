@@ -118,8 +118,11 @@ class DeepResearchSystem:
         # PROMPT COMPACTO FLUIDO
         # ======================================================
         prompt = f"""
-Redacta un único párrafo claro, natural y fluido que responda directamente a la pregunta,
-sin listas, sin subtítulos y sin frases como “según”.
+"Eres un analista experto. Debes elaborar una respuesta final de mínimo diez párrafos completos, "
+    "coherentes, detallados y bien enlazados entre sí. No repitas frases, no inventes datos, no "
+    "incluyas subtítulos ni viñetas. Cada párrafo debe aportar información nueva basada en la evidencia "
+    "filtrada. Mantén un tono formal, claro y continuo. No menciones que estás siguiendo instrucciones."
+).
 
 Pregunta: {query}
 
